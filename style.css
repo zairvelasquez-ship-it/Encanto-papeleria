@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
+:root{ 
+
+     --vinho: rgb(70, 25, 25);
+    --laranja: rgb(212, 152, 31);
+    --branco: rgb(215, 229, 236);
+    --azul-claro: rgb(102, 188, 184);
+    --texto: "Montserrat", sans-serif;
+    --titulo: "Oswald", sans-serif;
+}
+
+body{ 
+    background-color: var(--vinho);
+    font-family: var(--titulo);
+    margin: o;
+}
+header{
+    background-color:var(--branco);
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    align-items: center;
+
+}
+
+
+
+.img-logo{ 
+    width: 15%;
+    border-radius: 100%;
+
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    font-size: 20px;
+    font-family: var(--titulo);
+    text-transform: uppercase;
+}
+.menu a{
+    text-decoration: none;
+    color:var(--azul-claro);
+
+}
+.menu a hover{
+    color:var(--preto);
+    transition:0.5s ;
+}
