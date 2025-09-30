@@ -49,3 +49,20 @@ header{
     color:var(--preto);
     transition:0.5s ;
 }
+.capa{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+.capa img{
+width: 100%;
+height: auto;
+display: block;
+object-fit: cover;
+
+
+
+}
