@@ -66,3 +66,19 @@ object-fit: cover;
 
 
 }
+.apresentação{
+font-family: var(--titulo );
+text-align: center;
+margin: 30px 0;
+}
+
+.apresentacao h2{
+color:var(--branco);
+font-size:50px;
+}
+
+.apresentcçao p{
+color:var(--preto);
+font-size: 25px;
+font-family:varvar(--texto)
+}
